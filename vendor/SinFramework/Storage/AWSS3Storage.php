@@ -93,6 +93,7 @@ class AWSS3Storage implements StorageInterface {
 		} catch (S3Exception $e) {
 			throw new \Exception('Error deleting file');
 		}
+		return true;
 	}
 	/**
 	 * {@inheritDoc}
