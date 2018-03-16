@@ -46,4 +46,4 @@ there.
 		$storage->getFile($fileUID, 'output_name.txt', 'mybucket');
 	} catch (Exception $e) {
 			die($e->getMessage());
-		}
+	}
